@@ -5,13 +5,17 @@ __author__ = 'Jorge Niedbalski R. <jnr@metaklass.org>'
 
 from launchpadlib.launchpad import Launchpad
 
+import os
+
 
 class LaunchpadShowMyBugs(object):
+
+    CACHE_DIRECTORY = os.path.expanduser('~/.launchpadlib/cache')
 
     def __init__(self, author):
         self.author = author
         self.launchpad = Launchpad.login_with(
-            'hello-world', 'production')
+            'hello-world', 'production', self.CACHE_DIRECTORY)
         self.filters = {}
 
     def add_filter(self, name, value):
