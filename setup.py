@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name="lp-show-my-bugs",
-    version="0.0.1",
+    version="0.0.2",
     author="Jorge Niedbalski R.",
     author_email="jnr@metaklass.org",
     description="",
