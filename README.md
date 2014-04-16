@@ -58,3 +58,8 @@ bugs = lp.fetch()
 for bug in bugs:
     print bug.date_created, bug.title
 ```
+=======
+lp-show-my-bugs
+===============
+
+Console client for displaying your Launchpad.net bugs
