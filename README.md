@@ -8,12 +8,12 @@ How to use
 
 # Installation
 
-* Using pip
+Using pip
 
 ```shell
 $ pip install lp-show-my-bugs
 ```
-* Using pip + github
+Using pip + github
 ```shell
 $ pip install git+https://github.com/niedbalski/lp-show-my-bugs
 ```
@@ -24,12 +24,12 @@ $ pip install git+https://github.com/niedbalski/lp-show-my-bugs
 
 Basic usage:
 
-```shell
+```bash
 $ lp-show-my-bugs --author="niedbalski" --project="any-project" --sort_by="date_created:asc"
 ```
 
 Limiting results:
-```shell
+```bash
 $ lp-show-my-bugs --author="niedbalski" --project="any-project" --sort_by="date_created:asc --limit=10"
 ```
 
