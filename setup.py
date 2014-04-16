@@ -18,6 +18,7 @@ setup(
     author_email="jnr@metaklass.org",
     description="",
     install_requires=dependencies,
+    include_package_data=True,
     packages=find_packages(),
     long_description=read('README.md'),
     classifiers=[
