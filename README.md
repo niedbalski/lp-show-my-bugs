@@ -28,7 +28,7 @@ $ lp-show-my-bugs --author="niedbalski" --project="any-project" --sort_by="date_
 
 Limiting results:
 ```bash
-$ lp-show-my-bugs --author="niedbalski" --project="any-project" --sort_by="date_created:asc --limit=10"
+$ lp-show-my-bugs --author="niedbalski" --project="any-project" --sort_by="date_created:asc" --limit=10
 ```
 
 The output will looks like:
