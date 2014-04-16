@@ -3,8 +3,6 @@ Launchpad show my bugs
 
 Console utility that displays your current bug list from Launchpad.net
 
-How to use
-==========
 
 # Installation
 
@@ -59,7 +57,3 @@ for bug in bugs:
     print bug.date_created, bug.title
 ```
 =======
-lp-show-my-bugs
-===============
-
-Console client for displaying your Launchpad.net bugs
